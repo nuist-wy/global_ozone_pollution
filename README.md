@@ -1,8 +1,8 @@
 # global_ozone_pollution
-A Python demo for "Substantially underestimated global health risks of current ozone pollution"
+Code for "Substantially underestimated global health risks of current ozone pollution"
 
 ## Abstract
-> Global ozone (O3) pollution is on the rise, seriously threatening human health and ecological environment. However, current global O3-related health risks might be substantially underestimated in existing related works, which simply considered partial conditions (e.g., diseases, countries, or O3 sources) with coarse-resolution statistical or machine learning (ML) models. Here our study presented an in-depth assessment of current global O3 pollution with a geospatially dynamic ensemble ML model (GL-CEF), emphatically focusing on population exposure and all-cause mortality burden. The GL-CEF model yielded a favorable performance at estimating global seamless high-resolution ambient O3 concentrations. Currently, we estimated that 63.3% and 94.2% of global population were exposed to excess ambient O3 for short- and long-term exposure, respectively. Meanwhile, more people experienced considerable short- and long-term O3 exposure levels in Cropland, mainly contributed from Asia. Importantly, 0.34%/2.7% of global all-cause deaths were attributed to short-/long-term O3 exposure (approximately 0.173/1.375 million yr-1), largely exceeding recent estimation values. In addition, mid-latitude Asia (30°N) and western United States exhibited high mortality burden attributed to short- and long-term O3 exposure, leading to major global O3-attributable deaths. Our findings revealed current significant worldwide O3-related health risks and may effectively help prevent O3-attributable mortality in the future.
+> Global ozone (O₃) pollution was increasing, posing serious threats to human health and the ecological environment. Existing assessments might have underappreciated O₃-related health impacts worldwide due to their reliance on partial conditions (e.g., specific diseases, limited countries, or single O₃ source) and coarse-resolution holistic models. Here our study deeply assessed current global O₃ pollution using a geo-ensemble learning model (GL-CEF), with key focuses on population exposure and all-cause mortality burden. The GL-CEF model demonstrated strong performance in estimating global daily seamless ambient O₃ concentrations at high resolution (0.05°), achieving a mean bias of less than -1.5 ppb. We estimated that 66.2% of the global population was exposed to excess ambient O₃ for short term (> 30 days per year), and 94.2% suffered from long-term O₃ exposure. Notably, severe short- and long-term O₃ exposure levels were observed in Cropland areas, particularly over Asia. Importantly, 0.177 million (95% confidence interval [CI]: 0.139, 0.214) and 1.407 million (95% CI: 0.909, 1.896) all-cause deaths per year were attributed to short- and long-term O₃ exposure worldwide, respectively, significantly surpassing previous recognition from specific diseases. Furthermore, mid-latitude Asia (30°N) and the western United States showed high mortality burden due to O₃ exposure, contributing substantially to global O₃-attributable deaths. Our study highlighted current significant global O₃-related health risks and may effectively benefit the population exposed to O₃ pollution in the future.
 
 ## 🧩 Install
 ```
@@ -10,14 +10,15 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
 ```
 
 ## Environment
- > * Python 3.10.10
- > * netCDF4 1.6.5
- > * numpy 1.26.3
- > * matplotlib 3.8.2
-
-## 🧩 Usage
-- **Step I.**  Change the `file_dir` to your data path.
-- **Step II.**  Run the main.py
-```
-python main.py
-```
+ > * Matlab2023b
+ > * Python3
+	  > * netCDF4
+	  > * numpy
+	  > * scipy
+	  > * natsort
+	  > * h5py
+	  > * lightgbm
+	  > * xgboost
+	  > * deep-forest
+  	> * scikit-learn
+  	> * shutil
