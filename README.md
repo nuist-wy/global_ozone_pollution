@@ -24,3 +24,4 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
  > * deep-forest
  > * scikit-learn
  > * shutil
+ > * pickle
