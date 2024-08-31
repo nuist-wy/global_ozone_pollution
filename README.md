@@ -13,13 +13,13 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
  > * Matlab2023b
  > * Python3
  > * Python libraries:
- >   netCDF4 
- >   numpy
- >   scipy
- >   natsort
- >   h5py
- >   lightgbm
- >   xgboost
- >   deep-forest
- >   scikit-learn
- >   shutil
+ > *   netCDF4 
+ > *   numpy
+ > *   scipy
+ > *   natsort
+ > *   h5py
+ > *   lightgbm
+ > *   xgboost
+ > *   deep-forest
+ > *   scikit-learn
+ > *   shutil
