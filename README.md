@@ -60,7 +60,7 @@ run cal_relation_gen.m
 run fit_allmodel.py
 run site_model_gen.py
 ```
-- **Step IV.**  Estimate ambient O₃ concentrations.
+- **Step IV.**  Estimate ambient ozone concentrations.
 ```
 run pre_allmodel.py
 run site_pre.py
