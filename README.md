@@ -28,7 +28,7 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
 
  ## 🧩 Usage
  ### Validation (SICV or TESICV)
-- **Step I.**  Divide the grids to blocks.
+- **Step I.**  Divide the grids into blocks.
 ```
 run div_grid.m or div_grid_t.m
 ```
@@ -47,7 +47,7 @@ run site_eva.py or site_eva_t.py
 ```
 
  ### Estimation and visualization
-- **Step I.**  Divide the grids to blocks.
+- **Step I.**  Divide the grids into blocks.
 ```
 run div_grid_gen.m
 ```
