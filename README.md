@@ -9,11 +9,11 @@ Code for "Substantially underestimated global health risks of current ozone poll
 git clone https://github.com/nuist-wy/global_ozone_pollution.git
 ```
 
-## Environment
+## 🧩 Environment
  > * Matlab 2023b
  > * Python 3.8
 
-## Python libraries
+## 🧩 Python libraries
  > * netCDF4 
  > * numpy
  > * scipy
@@ -25,3 +25,49 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
  > * scikit-learn
  > * shutil
  > * pickle
+
+ ## 🧩 Usage
+ ### Validation (SICV or TESICV)
+- **Step I.**  Divide the grids to blocks.
+```
+run div_grid.m or div_grid_t.m
+```
+- **Step II.**  Calculate the relations of blocks.
+```
+run cal_relation.m or cal_relation_t.m
+```
+- **Step III.**  Train the GL-CEF model.
+```
+run fold.py or fold_t.py
+run site_model.py or site_model_t.py
+```
+- **Step IV.**  Validate the model performance.
+```
+run site_eva.py or site_eva_t.py
+```
+
+ ### Estimation
+- **Step I.**  Divide the grids to blocks.
+```
+run div_grid_gen.m
+```
+- **Step II.**  Calculate the relations of blocks.
+```
+run cal_relation_gen.m
+```
+- **Step III.**  Train the GL-CEF model.
+```
+run fit_allmodel.py
+run site_model_gen.py
+```
+- **Step IV.**  Estimate ambient O₃ concentrations.
+```
+run pre_allmodel.py
+run site_pre.py
+```
+- **Step V.**  Visualize the results.
+```
+run getr.m 
+run convert_to_nc.py 
+run map.py
+```
