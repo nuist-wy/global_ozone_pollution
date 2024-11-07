@@ -46,7 +46,7 @@ run site_model.py or site_model_t.py
 run site_eva.py or site_eva_t.py
 ```
 
- ### Estimation
+ ### Estimation and visualization
 - **Step I.**  Divide the grids to blocks.
 ```
 run div_grid_gen.m
