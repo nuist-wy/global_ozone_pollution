@@ -32,7 +32,7 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
 ```
 run div_grid.m or div_grid_t.m
 ```
-- **Step II.**  Calculate the relations of blocks.
+- **Step II.**  Calculate the global-local relations of blocks.
 ```
 run cal_relation.m or cal_relation_t.m
 ```
@@ -51,7 +51,7 @@ run site_eva.py or site_eva_t.py
 ```
 run div_grid_gen.m
 ```
-- **Step II.**  Calculate the relations of blocks.
+- **Step II.**  Calculate the global-local relations of blocks.
 ```
 run cal_relation_gen.m
 ```
