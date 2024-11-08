@@ -31,55 +31,50 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
 - **Step I.**  Divide the grids into blocks.
 ```
 matlab -batch "run('div_grid.m')"
-or
-matlab -batch "run('div_grid_t.m')"
+or matlab -batch "run('div_grid_t.m')"
 ```
 - **Step II.**  Calculate the global-local relations of blocks.
 ```
 matlab -batch "run('cal_relation.m')"
-or
-matlab -batch "run('cal_relation_t.m')"
+or matlab -batch "run('cal_relation_t.m')"
 ```
 - **Step III.**  Train the GL-CEF model.
 ```
 python fold.py
-or
-python fold_t.py
+or python fold_t.py
 ```
 ```
 python site_model.py
-or
-python site_model_t.py
+or python site_model_t.py
 ```
 - **Step IV.**  Validate the model performance.
 ```
 python site_eva.py
-or
-python site_eva_t.py
+or python site_eva_t.py
 ```
 
  ### Estimation and visualization
 - **Step I.**  Divide the grids into blocks.
 ```
-run div_grid_gen.m
+matlab -batch "run('div_grid_gen.m')"
 ```
 - **Step II.**  Calculate the global-local relations of blocks.
 ```
-run cal_relation_gen.m
+matlab -batch "run('cal_relation_gen.m')"
 ```
 - **Step III.**  Train the GL-CEF model.
 ```
-run fit_allmodel.py
-run site_model_gen.py
+python fit_allmodel.py
+python site_model_gen.py
 ```
 - **Step IV.**  Estimate ambient ozone concentrations.
 ```
-run pre_allmodel.py
-run site_pre.py
+python pre_allmodel.py
+python site_pre.py
 ```
 - **Step V.**  Visualize the results.
 ```
-run getr.m 
-run convert_to_nc.py 
-run map.py
+matlab -batch "run('getr.m ')"
+python convert_to_nc.py 
+python map.py
 ```
