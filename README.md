@@ -30,20 +30,32 @@ git clone https://github.com/nuist-wy/global_ozone_pollution.git
  ### Validation (SICV or TESICV)
 - **Step I.**  Divide the grids into blocks.
 ```
-run div_grid.m or div_grid_t.m
+matlab -batch "run('div_grid.m')"
+or
+matlab -batch "run('div_grid_t.m')"
 ```
 - **Step II.**  Calculate the global-local relations of blocks.
 ```
-run cal_relation.m or cal_relation_t.m
+matlab -batch "run('cal_relation.m')"
+or
+matlab -batch "run('cal_relation_t.m')"
 ```
 - **Step III.**  Train the GL-CEF model.
 ```
-run fold.py or fold_t.py
-run site_model.py or site_model_t.py
+python fold.py
+or
+python fold_t.py
+```
+```
+python site_model.py
+or
+python site_model_t.py
 ```
 - **Step IV.**  Validate the model performance.
 ```
-run site_eva.py or site_eva_t.py
+python site_eva.py
+or
+python site_eva_t.py
 ```
 
  ### Estimation and visualization
