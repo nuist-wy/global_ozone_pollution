@@ -1,5 +1,5 @@
 # global_ozone_pollution
-Code for "Substantially underestimated global health risks of current ozone pollution"
+A code demo for "Substantially underestimated global health risks of current ozone pollution".
 
 ## Abstract
 > Existing assessments might have underappreciated ozone-related health impacts worldwide. Here our study deeply assesses current global ozone pollution using the high-resolution (0.05°) estimation from a geo-ensemble learning model, crucially focusing on population exposure and all-cause mortality burden. Our model demonstrates strong performance, with a mean bias of less than -1.5 parts per billion against in-situ measurements. We estimate that 66.2% of the global population is exposed to excess ozone for short term (> 30 days per year), and 94.2% suffers from long-term exposure. Furthermore, severe ozone exposure levels are observed in Cropland areas, particularly over Asia. Importantly, the all-cause ozone-attributable deaths significantly surpass previous recognition from specific diseases worldwide. Notably, mid-latitude Asia (30°N) and the western United States show high mortality burden, contributing substantially to global ozone-attributable deaths. Our study highlights current significant global ozone-related health risks and may benefit the ozone-exposed population in the future.
